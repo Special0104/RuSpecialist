@@ -35,6 +35,4 @@ public class House {
         window.open();
     }
 
-
-
 }

@@ -12,6 +12,5 @@ public class App {
         house.view();
         System.out.printf("House height: %d\n", house.getHeight());
         context.close();
-
     }
 }

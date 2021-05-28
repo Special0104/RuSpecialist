@@ -8,7 +8,6 @@
     <bean id="windowBean"
           class="ru.specialist.WoodFrameWindow">
     </bean>
-
     <bean id="houseBean"
           class="ru.specialist.House">
         <constructor-arg ref="windowBean"/>
