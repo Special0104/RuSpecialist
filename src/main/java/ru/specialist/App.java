@@ -11,7 +11,7 @@ public class App {
         House house = context.getBean("houseBean", House.class);
         house.view();
         System.out.printf("House height: %d\n", house.getHeight());
-
         context.close();
+
     }
 }
