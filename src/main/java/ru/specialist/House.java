@@ -7,12 +7,17 @@ public class House {
     /* public House() {
 
      }*/
-    public House(Window window, int height) {
+/*    public House(Window window, int height) {
         //window = new Window();
         //window = new PlasticWindow();
         // window = new WoodFrameWindow();
         this.window = window;
         this.height = height;
+    }*/
+
+    public House(Window window) {
+        this.window = window;
+
     }
 
     public int getHeight() {
