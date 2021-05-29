@@ -8,11 +8,13 @@
     <bean id="windowBean"
           class="ru.specialist.WoodFrameWindow">
     </bean>
-
     <bean id="houseBean"
           class="ru.specialist.House">
         <constructor-arg ref="windowBean"/>
+        <!--
         <constructor-arg value="3"/>
+        -->
+        <property name="height" value="2"/>
     </bean>
 
 </beans>
