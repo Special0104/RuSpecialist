@@ -3,6 +3,7 @@ package ru.specialist;
 public class House {
     private Window window;
     private int height;
+   private Material wall;
 
     /* public House() {
 
@@ -28,6 +29,13 @@ public class House {
         this.height = height;
     }
 
+    public Material getWall() {
+        return wall;
+    }
+
+    public void setWall(Material wall) {
+        this.wall = wall;
+    }
     public Window getWindow() {
         return window;
     }
@@ -38,6 +46,11 @@ public class House {
 
     public void view() {
         window.open();
+    }
+    public void buildWall(){
+        for (int i = 0; i < getHeight(); i++) {
+            System.out.printf("Этаж %d. ",i);
+        }
     }
 
 }
